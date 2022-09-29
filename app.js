@@ -7,7 +7,10 @@ app.get('/', (req, res) => {
     res.send('<h1>Auto Scaling NodeJs Application</h1><h4>being with me , my beloved wife</h4>')
 })
 
-// define the port no
+// define the port no 
 app.listen(port, () => {
     console.log(`Express Web server listening port : ${port}`);
 })
+
+
+// just little revise the command
